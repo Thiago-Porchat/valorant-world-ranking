@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>VALORANT World Ranking</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<h1>VALORANT WORLD RANKING</h1>
+
+<button onclick="carregarPlanilha('https://docs.google.com/spreadsheets/d/e/2PACX-1vQdXPczMT1RUMX-V9-wEeahsIgnFFxNAON-6ElhdKii0Imkj7o8u8cCLES4o_fN93iR_rIdKIBpRH9g/pub?gid=1170321457&single=true&output=csv')">LIVE</button>
+<button onclick="window.location.href='ranking-2025-3.html'">2025.3</button>
+<button onclick="carregarPlanilha('https://docs.google.com/spreadsheets/d/e/2PACX-1vQdXPczMT1RUMX-V9-wEeahsIgnFFxNAON-6ElhdKii0Imkj7o8u8cCLES4o_fN93iR_rIdKIBpRH9g/pub?gid=661499233&single=true&output=csv')">2025.2</button>
+<button onclick="carregarPlanilha('https://docs.google.com/spreadsheets/d/e/2PACX-1vQdXPczMT1RUMX-V9-wEeahsIgnFFxNAON-6ElhdKii0Imkj7o8u8cCLES4o_fN93iR_rIdKIBpRH9g/pub?gid=212542616&single=true&output=csv')">2025.1</button>
+
+<table id="tabela"></table>
+<script src="script.js"></script>
+<script>
+window.onload = function() {
+  carregarPlanilha('https://docs.google.com/spreadsheets/d/e/2PACX-1vQdXPczMT1RUMX-V9-wEeahsIgnFFxNAON-6ElhdKii0Imkj7o8u8cCLES4o_fN93iR_rIdKIBpRH9g/pub?gid=1170321457&single=true&output=csv');
+};
+</script>
+
+</body>
+</html>
