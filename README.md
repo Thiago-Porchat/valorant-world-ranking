@@ -26,6 +26,6 @@
 
 ###
 
-<p align="left">É uma integração entre meu sistema de pontuação feita no google sheets junto com esse código HTML que gera a tabela.<br><br>Desejo adicionar breakdown da performance das equipes que levaram a aquela pontuação, além de adicionar todo o retroativo do ranking desde 2021.</p>
+<p align="left">É uma integração entre meu sistema de pontuação feita no google sheets junto com esse código HTML que gera a tabela.<br><br>Desejo adicionar breakdown da performance das equipes que levaram a aquela pontuação, além de adicionar todo o retroativo do ranking desde 2021.<br><br>Esqueci de avisar antes mas precisa estar em servidor para funcionar, pode ser um live server do próprio VS Code.</p>
 
 ###
